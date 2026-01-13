@@ -1,0 +1,35 @@
+day 1 belajar git & github
+
+- version control system (VCS) adalah sistem yang mampu menyimpan, mengelola rekaman perubahan dari source code ataupun data, biasa digunakan oleh programmers yang sedang berkolaborasi membuat software agar file yang digunakan hanya 1 tanpa perlu duplikasi.
+
+- git adalah salah satu software yang bisa melakukan VCS.
+
+- github adalah platform berbasis cloud yang memungkinkan untuk membuat, mengembalikan, mengelola dan membagikan code menggunakan repository (mengelola project git).
+
+- repository adalah folder project tempat menyipan semua file, kode, dll berbasis cloud yang berfungsi sebagai folder proyek untuk melacak perubahan seperti folder di google drive namun jauh lebih canggih.
+
+- commit adalah salinan atau snapshot riwayat perubahan pada file ataupun coding yang ada di repository dalam kurun waktu tertentu.
+
+- hash adalah penanda unik yang ada pada sebuah commit kita dan biasanya berisi string (angka random).
+
+- checkout adalah sebuah proses saat kita ingin berpindah ke sebuah commit
+
+- branch adalah fitur yang berfungsi untuk membuat salinan dan menjadi percabangan dari proyek utama (misalnya pada 1 project, dibagi menjadi beberapa tugas & dikerjakan tiap orang berbeda).
+
+- merge adalah proses penggabungan kembali cabang dari branch tadi ke proyek utama nya.
+
+
+
+
+-----------------------------------------------
+
+
+perbedaan github & git adalah :
+- git bisa kita jalankan secara local baik di komputer maupun laptop kita
+- github sama seperti git karena dia juga ada git di dalam nya namun dia berjalan nya menggunakan cloud.
+
+github & git juga bisa digabung supaya fitur yang kita dapatkan semakin menguntungkan bagi kita, yaitu :
+- push, kita bisa menambahkan / commit project kita dari lokal(git) ke github.
+- pull, kita bisa mengambil / commit project kita dari github ke lokal.
+
+namun, proses push & pull tidak semudah yang kita bayangkan karena kita harus menjadikan github sebagai remote (sumber dari repo) setelah itu repository nya di clone (mengambil repo dari remote)  ke computer ataupun laptop kita, jika sudah dilakukan baru kita bisa push & pull commit.

@@ -4,7 +4,7 @@ Repository ini berisi catatan pelajaran yang sudah saya dapatkan melalui channel
 
 ## Daftar Materi
 1. Apa itu Git & Github ✔
-2. 
+2. Bekerja Dengan Github ✔
 
 ---
 *Dibuat oleh Ridho Drajat*

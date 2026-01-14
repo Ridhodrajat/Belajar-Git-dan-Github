@@ -1,4 +1,31 @@
 Hari ini adalah hari ke-2 saya belajar Git & Github dari video pada youtube channel Web Programming UNPAS (WPU)
 
-- Saya menonton video ke 2 dari playlist belajat Git & Github, dan pada video ke 2 ini menjelaskan terkait bagaimana cara kita bekerja dengan github, membuat repository, 
+- Saya menonton video ke 2 & 3 dari playlist belajat Git & Github, dan pada video ke 2 ini menjelaskan terkait bagaimana cara kita bekerja dengan github, membuat repository, 
   menambah file, mengubah file lalu mengcommit nya, melihat history apa saja yang diubah pada sebuah file, dan diagram insights nya.
+
+
+----------------------------------------------------
+
+- Sedangkan pada video ke 3 fokus ke Branch :
+
+Apa itu Branch? Branch adalah cabang dari jalur utama (biasanya disebut Master atau Main). 
+Fitur ini memungkinkan Anda membuat "snapshot" kode untuk mengembangkan fitur baru atau bereksperimen 
+tanpa mengganggu kode utama yang sudah berjalan stabil.
+
+Fungsi utama branch :
+- untuk mencoba sebuah fitur baru dari project yang dibuat, jika fitur tersebut gagal maka tinggal 
+dihapus saja branch cabang nya tanpa menggangu project utama / main branch.
+
+Alur kerja pada branch : 
+- Membuat Branch: Membuat cabang baru dari Master.
+- Checkout: Berpindah antar branch yang berbeda untuk melakukan perubahan.
+- Commit: Menyimpan perubahan file hanya pada branch yang sedang aktif.
+- Pull Request: Mengirimkan permintaan agar pemilik repositori utama menarik (pull) perubahan dari branch Anda ke Master.\
+- Merge: Menggabungkan perubahan dari branch ke jalur utama (Master) setelah disetujui.
+- Delete Branch: Menghapus branch yang sudah tidak diperlukan setelah berhasil di-merge.
+
+adapun masalah yang terjadi pada saat menggabungkan 2 branch (cabang & utama) yaitu Merge Conflict :
+biasanya terjadi karena sistem membaca ada perbedaan yang sangat jauh sehingga tidak bisa dilakukan secara otomatis oleh sistem,
+Solusinya adalah menyelesaikan konflik tersebut secara manual dengan memilih bagian mana yang akan dipertahankan sebelum melakukan merge.
+
+

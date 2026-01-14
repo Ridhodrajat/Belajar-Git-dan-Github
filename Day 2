@@ -1,12 +1,14 @@
 Hari ini adalah hari ke-2 saya belajar Git & Github dari video pada youtube channel Web Programming UNPAS (WPU)
 
-- Saya menonton video ke 2 & 3 dari playlist belajat Git & Github, dan pada video ke 2 ini menjelaskan terkait bagaimana cara kita bekerja dengan github, membuat repository, 
+- Saya menonton video ke 2, 3 & 4dari playlist belajat Git & Github.
+
+- pada video ke 2 ini menjelaskan terkait bagaimana cara kita bekerja dengan github, membuat repository, 
   menambah file, mengubah file lalu mengcommit nya, melihat history apa saja yang diubah pada sebuah file, dan diagram insights nya.
 
 
 ----------------------------------------------------
 
-- Sedangkan pada video ke 3 fokus ke Branch :
+- pada video ke 3 fokus ke Branch :
 
 Apa itu Branch? Branch adalah cabang dari jalur utama (biasanya disebut Master atau Main). 
 Fitur ini memungkinkan Anda membuat "snapshot" kode untuk mengembangkan fitur baru atau bereksperimen 
@@ -27,5 +29,20 @@ Alur kerja pada branch :
 adapun masalah yang terjadi pada saat menggabungkan 2 branch (cabang & utama) yaitu Merge Conflict :
 biasanya terjadi karena sistem membaca ada perbedaan yang sangat jauh sehingga tidak bisa dilakukan secara otomatis oleh sistem,
 Solusinya adalah menyelesaikan konflik tersebut secara manual dengan memilih bagian mana yang akan dipertahankan sebelum melakukan merge.
+
+
+----------------------------------------------------
+
+
+- Pada video ke 4 menjelaskan tentang fork
+
+Apa itu Fork ? fork adalah salinan repository buatan atau milik orang lain yang dibuat ke akun github kamu sendiri, jadi 
+jika kita ingin mengubah ataupun menambahkan sebuah file / coding pada repository orang lain maka kita bisa menggunakan fork ini tanpa memengaruhi repository asli.
+
+Adapun manfaat dari fork ini ialah kita bisa memodifikasi, eksperimen, mengembangkan atau menambahkan fitur baru ke project kita ataupun ke repository dari orang lain.
+Setelah selesai, maka kita bisa mengajukan pull request ke repository asli jika ingin perubahan pada  diterima oleh pemilik aslinya.
+
+
+
 
 

@@ -1,0 +1,24 @@
+Kembali lagi bersama saya pada hari ke 3, disini saya menonton video ke 5 dari playlist sebelumnya dengan judul "Bekerja Dengan Git"
+
+Video ini secara khusus membahas git dengan rinci dari cara menginstall, command command yang umumnya digunakan, dan juga men demonstrasikan cara kerja nya secara langsung di laptop / komputer menggunakan git bash atau cmd lokal.
+
+Pada git terdapat sebuah konsep yang melibatkan tiga area utama, yaitu :
+- Working Directory (Working Tree): Tempat untuk membuat dan mengedit file proyek kita.
+- Staging Area: Area persiapan di mana perubahan file ditempatkan sementara sebelum disimpan permanen.
+- Repository (History): Tempat penyimpanan permanen dari snapshot file yang sudah di-commit.
+
+Adapun perintah perintah dasar yang diajarkan pada materi di video ini adalah :
+- git init : untuk menginisialisasi folder project menjadi repo > membuat folder tersembunyi
+bernama .git yang berfnugsi mengelola history.
+- git status : untuk memantau kondisi file apakah untracked, modified atau sudah di staging area.
+- git add : Memindahkan file dari working direcotry ke staging area.
+    > contoh : git add namafile.css untuk satu file, atau git add . untuk memindahkan semua perubahan sekaligus.
+- git commit -m "pesan" : untuk menyimpan perubahan yang ada di staging area ke history (repo).
+- git log : untuk melihat daftar riwayat commit yang telah dilakukan
+    >  Opsi tambahan: git log -3 digunakan untuk melihat hanya 3 commit terakhir jika riwayat sudah terlalu panjang.
+
+
+Alur Kerja :
+- Setiap perubahan (buat/edit file) dimulai di Working Directory.
+- Perubahan tersebut harus dipindahkan ke Staging Area menggunakan git add.
+- Terakhir, perubahan disimpan secara permanen ke Repository menggunakan git commit.

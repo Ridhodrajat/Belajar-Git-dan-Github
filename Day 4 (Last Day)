@@ -1,0 +1,28 @@
+Sudah sampai di hari ke 4, ini menjadi hari terakhir saya untuk belajar git & github. Alasan saya tidak melanjutkan ke video selanjutnya di playlist yang sama karena
+menurut saya untuk saat ini sudah cukup untuk belajar terkait Github & perintah (command) dasar dari Git mengingat untuk saat ini kemampuan coding saya juga masih sangat kurang....
+
+Pada file ini juga saya akan merangkum apa saja yang sudah saya pelajari di hari pertama sampai hari ketiga.
+
+Secara garis besar, saya sudah mempelajari fondasi Version Control System (VCS). Singkatnya, Git adalah alat (software) yang bekerja secara lokal di komputer atau laptop untuk 
+merekam perubahan kode, sedangkan GitHub  adalah layanan cloud untuk menyimpan, mengelola, dan berbagi kode tersebut secara online.
+
+Poin-Poin Penting:
+
+1. Konsep Dasar & Perbedaan
+    - Git (Lokal): Berjalan secara lokal di komputer. Fokus pada pengelolaan versi file (commit), perpindahan versi (checkout), dan pencatatan riwayat (log).
+    - GitHub (Cloud): Hosting untuk repository Git. Memungkinkan bekerja dengan orang lain, penyimpanan cadangan (backup), dan bisa berkontribusi untuk repository yang open source.
+    - Integrasi: Keduanya dihubungkan melalui proses Remote, Clone (duplikasi awal), Push (upload perubahan ke cloud), dan Pull (ambil perubahan dari cloud).
+2. Fitur Kolaborasi & Percabangan
+    - Branch (Cabang): Fitur untuk membuat cabang dalam kode. Memungkinkan eksperimen fitur baru tanpa merusak kode utama.
+    - Merge: Proses menyatukan kembali Branch ke jalur utama. Jika terjadi bentrok kode, akan muncul Merge Conflict yang harus diselesaikan manual.
+    - Fork: Menyalin repository orang lain ke akun GitHub milik kita pribadi untuk dimodifikasi secara bebas tanpa mengganggu repository asli pemiliknya.
+3. Tiga Area Kerja Git (Local Workflow) Dalam penggunaan Git di terminal (Git Bash/CMD), file bergerak melalui 3 tahapan:
+    - Working Directory: Tempat mengedit file saat ini.
+    - Staging Area: Area persiapan (transit) sebelum disimpan.
+    - Command: git add . (memindahkan dari Working ke Staging).
+    - Repository: Tempat penyimpanan permanen snapshot/history.
+    - Command: git commit -m "pesan" (memindahkan dari Staging ke Repo).
+4. Perintah Dasar Git
+    - git init: Membuat repository baru.
+    - git status: Cek kondisi file (apakah sudah di-add atau belum).
+    - git log: Melihat riwayat perubahan.
